@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+
+    "ionic-build": "nuxt build",
+    "ionic-dev": "nuxt dev",
+    "ionic-generate": "nuxt generate",
+    "ionic-preview": "nuxt preview",
+    "ionic-postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "5.7.4",
+    "@nuxtjs/ionic": "^0.13.1",
+    "nuxt": "^3.11.1",
+    "nuxt-quasar-ui": "^2.0.2",
+    "sass": "^1.62.1"
+  },
+  "dependencies": {
+    "@capacitor/android": "5.7.4",
+    "@capacitor/app": "5.0.7",
+    "@capacitor/camera": "^5.0.9",
+    "@capacitor/core": "5.7.4",
+    "@capacitor/filesystem": "^5.2.1",
+    "@capacitor/haptics": "5.0.7",
+    "@capacitor/keyboard": "5.0.8",
+    "@capacitor/preferences": "^5.0.7",
+    "@capacitor/status-bar": "5.0.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "@quasar/extras": "^1.16.4",
+    "quasar": "^2.12.0"
+  }
+}

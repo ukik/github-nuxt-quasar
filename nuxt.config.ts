@@ -2,11 +2,9 @@
 export default defineNuxtConfig({
   css: [
     '@/assets/custom.scss',
-    "@/theme/variables.css"
   ],
   modules: [
     'nuxt-quasar-ui',
-    "@nuxtjs/ionic"
   ],
   quasar: {
     plugins: [
@@ -28,15 +26,4 @@ export default defineNuxtConfig({
       },
     },
   },
-  ssr: true,
-  ionic: {
-    integrations: {
-      icons: true,
-    },
-    config: {
-      // ...
-    },    
-  },  
-  pages: true,
-  devtools: { enabled: true }
 });
